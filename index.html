@@ -9,43 +9,53 @@
     <title>basket of goods</title>
 </head>
 <body>
-    <h1 class="title">Карзина товаров</h1>
+    <h1 class="title">Корзина товаров</h1>
    <div class="products">
     <a href="#">
       <img class="bread" src="imege/bread.jpg" alt="">
-      <p>Хлеб 20$</p>
+      <p class="text-bread">Хлеб 20₽</p>
     </a>
-
+    
      <a href="#">
        <img class="Ioaf" src="/imege/Ioaf.jpg" alt="">
-       <p>Батоны 25$</p>
+       <p class="text-Ioaf">Батоны 25₽</p>
      </a>
 
      <a href="#">
        <img class="croisant" src="/imege/croisant.jpg" alt="">
-       <p>Круасаны 35$</p>
+       <p class="text-croisant">Круасаны 35₽</p>
      </a>
 
      <a href="#">
        <img class="cupcakes" src="/imege/cupcakes.jpg" alt="">
-       <p>Кексы 40$</p>
+       <p class="text-cupcakes">Кексы 40₽</p>
+     </a>
+     
+     <a href="#">
+        <img class="donut" src="/imege/donut.jpg" alt="">
+        <p class="text-donut">Пончики 30₽</p>
      </a>
 
      <a href="#">
-        <img class="donut" src="/imege/donut.jpg" alt="">
-        <p>Пончики 30$</p>
+       <img class="buns" src="/imege/ghmhji.jpg" alt="">
+       <p class="text-buns">Булочки 50₽</p>
      </a>
    </div>
 
    <button class="js-button" type="button">+ В карзину</button>
 
     <!-- Корзина -->
-    <div class="card mb-4">
+    <div class="card-mb-4">
       <div class="card-body">
         <h5 class="card-title">Ваш заказ</h4>
 
           <div data-cart-empty class="alert-alert-secondary" role="alert" placeholder="Ваш номер телефона">
           Корзина пуста
+         <p>
+            <span class="h5">Итого:</span>
+						<span class="total-price">0</span>
+						<span class="rouble">₽</span>
+         </p>
        </div>
       </div>
     </div>
@@ -56,9 +66,16 @@
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Ваш номер телефона">
       </div>
-      <button type="submit" class="btn btn-primary">Заказать</button>
+      <button type="submit" class="js-btn-btn-primary">Заказать</button>
     </form>
     </div>
+     <div class="items-counter-wrapper">
+       <div class="items__control" data-action="minus">-</div>
+       <div class="items__current" data-counter>1</div>
+       <div class="items__control" data-action="plus">+</div>
+     </div>
+
+    
 
     <script src="index.js"></script>
 </body>

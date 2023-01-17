@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Oswald:wght@200;300&family=Poppins:wght@300;400;500;600&display=swap');
 
 body {
-    background-color: burlywood;
+    background-image: url("imege/fon.jpg");
     font-family: 'Inter', sans-serif;
+    width: 1200px;
+    height: 1200px;
     
 }
 
@@ -14,12 +16,13 @@ body {
     width: 260px;
     border-radius: 30px;
     margin-left: 580px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
 }
 
 
 .products {
-    width: 50px;
-    height: 50px;
+    width: 110px;
+    height: 110px;
     margin-left: 5px;
 }
 
@@ -27,61 +30,154 @@ body {
     width: 110px;
     height: 110px;
     border-radius: 10px;
+    outline: 2px solid;
+    transform: translate(20px);
 }
 
-.Ioaf {
+.Ioaf {    
     width: 110px;
     height: 110px;
     border-radius: 10px;
+    outline: 2px solid;
+    transform: translate(20px);
+    
 }
 
 .croisant {
     width: 110px;
     height: 110px;
     border-radius: 10px;
+    outline: 2px solid;
+    transform: translate(20px);
 }
 
 .cupcakes {
+    position: relative;
     width: 110px;
     height: 110px;
     border-radius: 10px;
+    outline: 2px solid;
+    transform: translate(200px);
+    top: -516px;
 }
 
 .donut {
+    position: relative;
     width: 110px;
     height: 110px;
     border-radius: 10px;
+    outline: 2px solid;
+    transform: translate(200px);
+    top: -516px;
 }
 
+.buns {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    outline: 2px solid;
+    transform: translate(200px);
+    top: -516px;
+}
+
+.text-buns {
+    position: relative;
+    color: #ffff;
+    transform: translate(200px);
+    top: -516px;
+}
+
+.text-bread {
+    color: #ffff;
+    transform: translate(20px);
+}
+
+.text-Ioaf {
+    color: #ffff;
+    transform: translate(20px);
+}
+
+.text-croisant {
+    color: #ffff;
+    transform: translate(20px);
+}
+
+.text-cupcakes {
+    position: relative;
+    color: #ffff;
+    transform: translate(200px);
+    top: -516px;
+}
+
+.text-donut {
+    position: relative;
+    color: #ffff;
+    transform: translate(200px);
+    top: -516px;
+}
 
 .js-button {
+    position: relative;
     margin-top: 900px;
-   
+    cursor: pointer;
+    top: -500px;
+    margin-left: 20px;
 }
 
 .card-title {
-    margin-left: 1000px;
     margin-top: -950px;
     font-size: 18px;
-    
-
 }
 
 
 .alert-alert-secondary {
-    margin-left: 1000px;
     font-size: 18px;
+    text-align: center;
 }
 
+
+
 .js-card-title {
-    margin-left: 1000px;
-    margin-top: 50px;
+    
+    
+}
+
+.card-title {
+    margin-left: 5px;
+    color: rgb(0, 80, 80);
+    text-align: center;
 }
 
 .form-control {
-    margin-left: 1000px;
+    border-radius: 5px;
+    color: rgb(0, 80, 80);
 }
 
-.btn-btn-primary {
-    
+.js-btn-btn-primary {
+    margin-top: 10px;
+    color: rgb(0, 80, 80);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.js-card-title {
+    color: rgb(0, 80, 80);
+}
+
+.card-body {
+    outline: 2px solid;
+    width: 260px;
+    margin-left: 1000px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.items-counter-wrapper {
+    color: #ffff;
+    position: relative;
+    margin-top: 900px;
+    cursor: pointer;
+    top: -1150px;
+    margin-left: 330px;
 }
