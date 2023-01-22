@@ -4,79 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
     <title>basket of goods</title>
 </head>
 <body>
     <h1 class="title">Корзина товаров</h1>
-   <div class="products">
-    <a href="#">
-      <img class="bread" src="imege/bread.jpg" alt="">
-      <p class="text-bread">Хлеб 20₽</p>
-    </a>
-    
-     <a href="#">
-       <img class="Ioaf" src="/imege/Ioaf.jpg" alt="">
-       <p class="text-Ioaf">Батоны 25₽</p>
-     </a>
+   <div class="js-products">
 
-     <a href="#">
-       <img class="croisant" src="/imege/croisant.jpg" alt="">
-       <p class="text-croisant">Круасаны 35₽</p>
-     </a>
+      <div class="js-functionality-products">
+        <a class="js-bread" href="#">
+          <img class="bread" src="/imege/bread.jpg" alt="">
+          <p class="text-bread">Хлеб 20₽</p>
+        </a>
+        <a href="#">
+          <img class="Ioaf" src="/imege/Ioaf.jpg" alt="">
+          <p class="text-Ioaf">Батоны 25₽</p>
+        </a>
+        <a href="#">
+          <img class="croisant" src="/imege/croisant.jpg" alt="">
+          <p class="text-croisant">Круасаны 35₽</p>
+        </a>
+        <a href="#">
+          <img class="cupcakes" src="/imege/cupcakes.jpg" alt="">
+          <p class="text-cupcakes">Кексы 40₽</p>
+        </a>
+        <a href="#">
+           <img class="donut" src="/imege/donut.jpg" alt="">
+           <p class="text-donut">Пончики 30₽</p>
+        </a>
+        <a href="#">
+          <img class="buns" src="/imege/ghmhji.jpg" alt="">
+          <p class="text-buns">Булочки 50₽</p>
+        </a>
+      </div>
 
-     <a href="#">
-       <img class="cupcakes" src="/imege/cupcakes.jpg" alt="">
-       <p class="text-cupcakes">Кексы 40₽</p>
-     </a>
-     
-     <a href="#">
-        <img class="donut" src="/imege/donut.jpg" alt="">
-        <p class="text-donut">Пончики 30₽</p>
-     </a>
+        <div class="js-button">
+          <button class="js-delete-button">X</button>
+          <button class="js-delete-button2">X</button>
+          <button class="js-delete-button3">X</button>
+          <button class="js-delete-button4">X</button>
+          <button class="js-delete-button5">X</button>
+          <button class="js-delete-button6">X</button>
+        </div>
+      
 
-     <a href="#">
-       <img class="buns" src="/imege/ghmhji.jpg" alt="">
-       <p class="text-buns">Булочки 50₽</p>
-     </a>
-   </div>
-
-   <button class="js-button" type="button">+ В карзину</button>
-
-    <!-- Корзина -->
-    <div class="card-mb-4">
-      <div class="card-body">
-        <h5 class="card-title">Ваш заказ</h4>
-
-          <div data-cart-empty class="alert-alert-secondary" role="alert" placeholder="Ваш номер телефона">
-          Корзина пуста
-         <p>
-            <span class="h5">Итого:</span>
-						<span class="total-price">0</span>
-						<span class="rouble">₽</span>
-         </p>
+     <div class="card-mb-4">
+       <div class="card-body">
+         <h4 class="card-title">Ваш заказ</h4>
+  
+          <div class="js-alert-alert-secondary" role="alert" placeholder="Ваш номер телефона">
+           Корзина пуста
+           <p>
+             <span class="h5">Итого:</span>
+             <span class="total-price">0</span>
+             <span class="rouble">₽</span>
+           </p>
+         </div>
        </div>
-      </div>
-    </div>
-
-    <div id="order-form" class="card-body border-top none">
-    <h2 class="js-card-title">Оформить заказ</h2>
-    <form>
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Ваш номер телефона">
-      </div>
-      <button type="submit" class="js-btn-btn-primary">Заказать</button>
-    </form>
-    </div>
-     <div class="items-counter-wrapper">
-       <div class="items__control" data-action="minus">-</div>
-       <div class="items__current" data-counter>1</div>
-       <div class="items__control" data-action="plus">+</div>
      </div>
-
-    
-
+  
+      <div id="order-form" class="js-card-body-border-top">
+       <h2 class="js-card-title">Оформить заказ</h2>
+       <form>
+         <div class="form-group">
+           <input type="text" class="form-control" placeholder="Ваш номер телефона">
+         </div>
+         <button type="submit" class="js-btn-btn-primary">Заказать</button>
+       </form>
+     </div>
+   </div>
     <script src="index.js"></script>
 </body>
 </html>
