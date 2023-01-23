@@ -11,6 +11,5 @@ functionalityProducts.addEventListener('click', function() {
         output ='Ашбка';
     }
     
-    jsAlertAlertSecondary.innerHTML = output;
-    });
-    
+    jsAlertAlertSecondary.innerHTML = output; 
+});
