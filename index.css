@@ -19,80 +19,79 @@ body {
 }
 
 .js-products {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     margin-left: 5px;
 
      
 }
 
 .bread {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     outline: 2px solid;
     transform: translate(20px);
 }
 
 .Ioaf {    
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     outline: 2px solid;
     transform: translate(20px);
-    
 }
 
 .croisant {
     position: relative;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     outline: 2px solid;
     transform: translate(380px);
-    top: -165px;
+    top: -200px;
 }
 
 .cupcakes {
     position: relative;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     outline: 2px solid;
     transform: translate(200px);
-    top: -444px;
+    top: -565px;
 }
 
 .donut {
     position: relative;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     outline: 2px solid;
     transform: translate(200px);
-    top: -446px;
+    top: -565px;
 }
 
 .buns {
     position: relative;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     outline: 2px solid;
     transform: translate(380px);
-    top: -774px;
+    top: -975px;
 }
 
 .text-buns {
     position: relative;
     color: #ffff;
     transform: translate(380px);
-    top: -776px;
+    top: -976px;
 }
 
 .text-bread {
     color: #ffff;
-    transform: translate(20px);
+    transform: translate(30px);
 }
 
 .text-Ioaf {
@@ -104,23 +103,23 @@ body {
     position: absolute;
     display: flex;
     color: #ffff;
-    transform: translate(380px);
+    transform: translate(385px);
     justify-content: space-evenly;
-    top: 400px;
+    top: 480px;
 }
 
 .text-cupcakes {
     position: relative;
     color: #ffff;
-    transform: translate(200px);
-    top: -444px;
+    transform: translate(205px);
+    top: -565px;
 }
 
 .text-donut {
     position: relative;
     color: #ffff;
     transform: translate(200px);
-    top: -446px;
+    top: -566px;
 }
 
 .card-title {
@@ -159,11 +158,13 @@ body {
 }
 
 .card-body {
+    position: relative;
     outline: 2px solid;
-    width: 260px;
-    margin-left: 1000px;
+    width: 210px;
+    margin-left: 1050px;
     border-radius: 10px;
     background-color: azure;
+    top: -200px;
 }
 
 .js-items-counter-wrapper {
@@ -189,41 +190,62 @@ body {
 
 .js-delete-button {
     position: absolute;
-    transform: translate(100px);
-    top: 250px;
+    transform: translate(120px);
+    top: 290px;
     cursor: pointer;
 }
 
 .js-delete-button2 {
     position: absolute;
-    transform: translate(113px);
-    top: 415px;
+    transform: translate(125px);
+    top: 495px;
     cursor: pointer;
 }
 
 .js-delete-button3 {
     position: absolute;
-    transform: translate(495px);
-    top: 413px;
+    transform: translate(499px);
+    top: 495px;
     cursor: pointer;
 }
 .js-delete-button4 {
     position: absolute;
-    transform: translate(290px);
-    top: 254px;
+    transform: translate(300px);
+    top: 290px;
     cursor: pointer;
 }
 
 .js-delete-button5 {
     position: absolute;
-    transform: translate(305px);
-    top: 415px;
+    transform: translate(315px);
+    top: 495px;
     cursor: pointer;
 }
 
 .js-delete-button6 {
     position: absolute;
-    transform: translate(485px);
-    top: 250px;
+    transform: translate(495px);
+    top: 290px;
     cursor: pointer;
 }
+
+.search-txt {
+    position: absolute;
+    width: 220px;
+    height: 27px;
+    left: 140px;
+    top: 39px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 95px;
+   }
+   
+   .search-btn {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 329.67px;
+    top: 46.89px;
+    color: var(--light);
+   }
+   
+   
