@@ -22,8 +22,6 @@ body {
     width: 150px;
     height: 150px;
     margin-left: 5px;
-
-     
 }
 
 .bread {
@@ -138,20 +136,7 @@ body {
     text-align: center;
 }
 
-.form-control {
-    border-radius: 5px;
-    color: rgb(0, 80, 80);
-}
 
-.js-btn-btn-primary {
-    margin-top: 10px;
-    color: rgb(0, 80, 80);
-    font-size: 15px;
-    cursor: pointer;
-    border-radius: 5px;
-    background-color: lightpink;
-    border-style: none;
-}
 
 .js-card-title {
     color: rgb(0, 80, 80);
@@ -188,47 +173,6 @@ body {
     top: -2025px;
 }
 
-.js-delete-button {
-    position: absolute;
-    transform: translate(120px);
-    top: 290px;
-    cursor: pointer;
-}
-
-.js-delete-button2 {
-    position: absolute;
-    transform: translate(125px);
-    top: 495px;
-    cursor: pointer;
-}
-
-.js-delete-button3 {
-    position: absolute;
-    transform: translate(499px);
-    top: 495px;
-    cursor: pointer;
-}
-.js-delete-button4 {
-    position: absolute;
-    transform: translate(300px);
-    top: 290px;
-    cursor: pointer;
-}
-
-.js-delete-button5 {
-    position: absolute;
-    transform: translate(315px);
-    top: 495px;
-    cursor: pointer;
-}
-
-.js-delete-button6 {
-    position: absolute;
-    transform: translate(495px);
-    top: 290px;
-    cursor: pointer;
-}
-
 .search-txt {
     position: absolute;
     width: 220px;
@@ -237,15 +181,24 @@ body {
     top: 39px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 95px;
-   }
+}
    
-   .search-btn {
+.search-btn {
     position: absolute;
     width: 18px;
     height: 18px;
     left: 329.67px;
     top: 46.89px;
     color: var(--light);
-   }
+}
    
-   
+.js-delete-button-basket {
+    position: relative;
+    transform: translate(1231px);
+    top: -1060px;
+    cursor: pointer;
+    background-color: rgb(255, 68, 68);
+    color: #ffff;
+    border-radius: 5px;
+    border-color: rgb(97, 90, 90)
+}

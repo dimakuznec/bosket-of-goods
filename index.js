@@ -1,15 +1,18 @@
 const functionalityProducts = document.querySelector('.js-functionality-products');
-const jsButton = document.querySelector('.js-button');
 const jsAlertAlertSecondary = document.querySelector('.js-alert-alert-secondary');
-const jsCardBodyBorderTop = document.querySelector('.js-card-body-border-top');
 
+// Вывод товара в корзину
 functionalityProducts.addEventListener('click', function() {
     const purchase = jsAlertAlertSecondary.value;
     let output = 'Товар в карзине';
-    
-    if (purchase == 'functionalityProducts') {
-        output ='Ашбка';
-    }
-    
     jsAlertAlertSecondary.innerHTML = output; 
+});
+
+//Функция удаления товара из карзины
+let deletebutton = document.getElementById('delete-button');
+
+deletebutton.addEventListener('click', function() {
+  const deletebutton = jsAlertAlertSecondary.value;
+  let output = 'Корзина пуста';
+  jsAlertAlertSecondary.innerHTML = output;
 });
